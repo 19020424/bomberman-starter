@@ -208,7 +208,7 @@ public class Sprite {
 		}
 	}
 
-	private void load() {
+	private void load() { //lay hinh anh
 		for (int y = 0; y < SIZE; y++) {
 			for (int x = 0; x < SIZE; x++) {
 				_pixels[x + y * SIZE] = _sheet._pixels[(x + _x) + (y + _y) * _sheet.SIZE];
